@@ -1,0 +1,128 @@
+.main-div{
+    color:gray; 
+}
+.progress-container{
+padding:50px 0px 20px 0px;
+}
+.progress-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-number{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: green;
+}
+.progress-number2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: gray;
+}
+.progress-number3{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: gray;
+}
+.progress-size{ 
+    width:25%;
+    margin: 0px -2px 0px -2px;
+}
+.forms{
+margin: 2% 10% 2% 10%;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 15px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+/* .input-container {  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+.input-field{
+    width: 100%
+} */
+/* .progress-level1{
+width: 100%;
+background-color: green;
+}
+.progress-level2{
+    width: 100%;
+    background-color: green;
+    } */
+.progress-level1 .progress-level2{
+        width: 0%;
+    }
+.btn{
+    width: 100px;
+    margin: 20px;
+}
+.next-btn{
+    text-align: center;
+    color: white;
+}
+.title{
+    text-align: center;
+}
+
+.head-container{
+    min-height:250px;
+     margin-top: 2%;
+}
+
+.div-constant{
+    min-height:250px;
+}
+@media screen and (min-width: 320px) and (max-width: 576px){
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    
+   
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+  
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    
+}
