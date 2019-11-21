@@ -1,0 +1,338 @@
+.primary-background-color {
+  background-color: #BFAA6B;;
+  color:#FFF;
+}
+.banner {
+  align-items: center;
+  background-image: url('../images/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 168px 0 80px;
+  position: relative;
+  background-color: #EAEAE0;
+  background-blend-mode: multiply;
+  /* opacity: 0.5; */
+}
+.banner.overlay {
+  background-color: rgba(234, 234, 224, 0.4);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.banner h3 {
+  font-size: 40px;
+  text-align: center;
+  z-index: 4;
+}
+.banner span {
+  display: block;
+  height: 2px;
+  margin: 10px auto 0;
+  width: 60%;
+}
+.banner p {
+  margin: 0;
+}
+.profile-left {
+  display: flex;
+  margin-top: -170px;
+}
+.profile-image {
+  background-image: url('../images/main-profile.png');
+  background-position: center;
+  background-size: cover;
+  height: 526px;
+  width: 50%;
+  z-index: 1;
+}
+.profile-detail {
+  width: 50%;
+}
+.imp-user {
+  font-size: 48px;
+  font-family: 'Abril Fatface', cursive;
+}
+.title {
+  margin: 175px 0 0 -240px;
+  padding: 10px 70px 10px 20px;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+}
+.title:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #796A3F;
+  bottom: -50px;
+  position: absolute;
+  right: 0;
+}
+.title span{
+  display: block;
+}
+.profile .description_down {
+  font-size: 14px;
+  margin: 0px;
+  text-align: justify;
+}
+.description{
+  margin-top: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4em;
+  color: #595959;
+}
+@media screen and (max-width: 567px) {
+  .profile-title{
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .read-title{
+    font-size: 16px;
+  }
+  .Flag-date {
+    right: unset !important;
+    left: -15px;
+  }
+  .Flag-date:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-top: 14px solid #796A3F;
+    bottom: -14px;
+    position: absolute;
+    left: 0 !important;
+    border-right: unset !important;
+  } 
+  .profile .description_down{
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding-bottom: 20px;
+  }
+  .profile-left {
+    flex-wrap: wrap;
+  }
+  .profile-image {
+    height: 250px !important;
+    top: -100px;
+    width:78%;
+  }
+  .profile-detail {
+    width: 100% !important;
+  }
+  .read-more{
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+  }
+  .imp-user {
+    font-size: 20px !important;
+  }
+  .title {
+    margin: -135px 0 0 -15px !important;
+    padding: 10px 20px 10px 20px !important;
+    position: relative;
+    font-size:13px;
+      /* text-align: center; */
+  }
+  .title:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent !important;
+  border-top: 20px solid #796A3F !important;
+  bottom: -20px !important;
+  position: absolute;
+  right: 0;
+}       
+.description {
+  font-size: 14px;
+  margin: 136px 0 0 !important;
+}
+.timeline-bg {
+  padding: 10px !important;
+}
+.second-profile   .back-profile {
+  padding: 50px 0 50px 0px !important;
+  background-position: 0 0 !important;
+}
+.timeline-face {
+  position: absolute;
+  left: 31px !important;
+  z-index: 1;
+  margin-top: 0px;
+}
+.timeline-face img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.timeline-title {
+  margin-top: 50px;
+  font-size: 14px;
+}
+.time-banner {
+  padding: 0px 0px 50px !important;
+}
+}
+@media screen and (max-width: 768px) {
+  .stya-tuned{    
+    font-size: 14px;    
+  }
+  .follow{
+    font-size: 14px;
+  }
+  .social-icon-container {
+    /* margin-top: 10px; */
+    display: block;
+}
+  .social-icon-container a {
+    padding: 0 4px;
+}
+.banner {
+  background-color: #EAEAE0;
+  padding: 50px 0 60px; 
+  /* padding: 128px 0 60px; */
+}
+.banner  h3 {
+  font-size: 38px;
+}
+.overlay {
+  display: none;
+}
+.profile-main {
+  padding: 0;
+}
+.profile {
+  margin-top: 120px;
+  position: relative;
+}
+.profile-left {
+  display: block;
+  margin-top: -120px;
+}
+.profile-image {
+  position: absolute;
+  top: -120px;
+}
+.profile-detail {
+  /* // margin-bottom: 80px; */
+  width: 100%;
+}
+.title {
+  margin: 115px 0 0 -240px;
+  text-align: right;
+}
+.description {
+  font-size: 12px;
+  margin: 140px 0 50px;
+}
+.read-more {
+  font-size: 13px;
+}
+/* .profile-section {
+  background-color: #EAEAE0;
+} */
+.profile-image {
+  height: 325px !important;
+  margin: 0px 0 0 -58px;
+}
+.back-profile {
+  padding: 20px !important;
+}
+.timeline .timeline-bg {
+  padding: 40px 20px 0px !important;
+}
+.timeline-face {
+  position: absolute;
+  left: 47%;
+  z-index: 1;
+  margin-top: 17px;
+}
+    /* // text-align: center; */
+.timeline-face  img {
+  border-radius: 50%;
+  /* height: 50px;
+  width: 50px; */
+}
+.timeline .time-banner {
+  padding: 0px 0 100px;
+}
+.ttl-sub{
+  font-size: 24px;
+}
+.ttl-main { 
+  font-size: 15px; 
+}
+.ft-ff{
+  font-size: 14px;
+}
+}
+/* mobile style */
+.mb-title{
+  background-color: #BFAA6B;
+  padding: 20px;
+}
+.mb-title p {
+  margin: 0;
+}
+.ttl-main{
+  color: white;
+  font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+  /* letter-spacing:1px; */
+}
+.ttl-sub{
+  color: white;
+  font-size: 28px;
+  font-family: 'Abril Fatface', cursive;
+  /* letter-spacing:2px; */
+}
+.stya-tuned{
+  color: #595959;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+.t-img{
+  position: absolute;
+  bottom: 0px;
+  height: 350px;
+  margin-left: -83px;
+}
+.follow-div{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0px 0px 100px;
+}
+.social-icon-item {
+  color:rgb(77, 77, 77);
+  text-align: center;
+  /* height: 50px;
+  width: 50px; */
+}
+.social-icon-container{
+margin-top: 10px;
+}
+.follow{
+  font-size: 20px;
+  color: #595959;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+}
