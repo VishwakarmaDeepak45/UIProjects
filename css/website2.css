@@ -5,15 +5,68 @@
   background: linear-gradient(to right, #132243 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all .5s ease-out;
+  /* transition: all .5s ease-out; */
   padding: 11px 35px;
   color: #132243;
   text-align: center;
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: bold;
-  transition: all .6s ease-out;
 }
+.slider-container{
+    padding: 0px 100px;
+}
+.slider-size{
+    padding:60px
+}
+.books{
+    width: 180px;
+}
+.head-text-container{
+    padding: 30px 0px;
+}
+.choose-sec2-head{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.dots{
+    margin-left: -7px;
+}
+.explore-container{
+    padding:30px 0px;
+}
+.explore-child-text{
+    font-size:15px;
+}
+p{
+    margin:0px;
+}
+.light-text-container{
+    padding-top: 15px;
+}
+.btn-container{
+    display: none;
+  }
+  .choose-container-head{
+    font-size:40px;
+    font-weight: 600;
+    color: #132243;
+    line-height: 1.5;
+  }
+  .choose-container-head2{
+    font-size:18px;
+    color: #132243;
+  }
+  .sign-in-link{
+    color:#132243;
+    font-weight: 600;
+  }
+  .choose-main-div{
+    background-color: #f5f9ff;
+    padding: 110px 0px;
+  }
+  
 
 .button:hover {
   background-position: left bottom;
@@ -27,21 +80,22 @@
     background: linear-gradient(to right, white 50%, #132243 50%);
     background-size: 200% 100%;
     background-position: right bottom;
-    transition: all .5s ease-out;
+    /* transition: all .5s ease-out; */
     padding: 11px 35px;
     color: white;
     text-align: center;
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: bold;
-    transition: all .6s ease-out;
   }
   
   .button2:hover {
     background-position: left bottom;
     color: #132243; 
   }
-
+.btn-hobbie-container{
+    margin-bottom: 40px;
+}
 
 
 
@@ -72,15 +126,17 @@ body{
 }
 .about-section-container{
     background-color: #6200dc;
+    padding: 50px 100px 10px 100px;
 }
 .about-section{
     border:1px solid #ccc; 
     border-radius:10px;
-    margin-bottom: 20px; 
     display: flex;
 }
 .text{
-    font-size:20px; 
+    font-size:18px; 
+    font-weight: bold;
+    color: #132243;
     padding: 20px 0px 0px 10px;
 }
 .section-title-container{
@@ -89,18 +145,24 @@ body{
     margin-top: -80px;
 }
 .section-intro-heade2{
+    padding-top: 20px;
     text-align: center; 
-    font-size: 34px; 
+    font-size: 27px; 
+    color: #132243;
     font-weight: 600;
 }
 .book{
-    /* position: absolute;  */
-    right: 30px; 
-    margin-top: -125px;
+    position: absolute;
+    right: -10px;
+    width: 180px;
+    margin-top: -100px;
 }
 .about-img{
     height: 300px; 
-    border-radius:10px
+    border-radius:10px;
+}
+.img-border{
+    padding-right: 60px;
 }
 .hobbies-img{
     border-radius: 5px;
@@ -113,7 +175,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
-    padding: 0px 0px 0px 20px;
+    padding: 10px;
+
 }
 .about-section-div2-text{
     text-align: left; 
@@ -123,18 +186,21 @@ body{
 }
 .section-intro-heade2-child{
     text-align: center;
+    padding: 10px 10%;
+    font-size: 15px;
+    color: #132243;
 }
 .underline{
     border-bottom: 2px solid #aaaaaa;
-    width: 50px;
+    width: 32px;
 }
 .light-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #aaaaaa;
 }
 .section-div{
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 0px 2px 0px 2px #eff2f2;
 }
 
@@ -160,7 +226,7 @@ body{
 }
 .explore-now{
     color:#132243; 
-    font-size: 18px; 
+    font-size: 16px; 
     font-weight: bold;
 }
 .explore-img{
@@ -189,10 +255,12 @@ padding:10px;
 }
 .head-title{
     font-size:80px; 
+    line-height: 1.3;
     font-weight: 600; 
     color: #132243;
 }
 .head-text{
+    
     font-size:18px;  
     color: #132243;
 }
@@ -221,7 +289,7 @@ color:#132243;
     z-index: 999;
     margin-top:150px;
     position: absolute;
-    right:16%;
+    right:15%;
 }
 .white-overlay{
     width:70%; 
@@ -262,10 +330,12 @@ color:#132243;
 } */
 .hobbie-container{
     display:flex;
-    padding: 70px 0px 70px 0px;
+    color:#132243;
+    padding: 70px 90px 70px 90px;
 }
 .hobbie-div1{
     padding-right:10%;
+    padding-top: 50px;
 }
 .hobbie-div2{
     width:50%;
@@ -310,7 +380,10 @@ color:#132243;
 }
 .hobbie-sec-container{
     text-align: right;
-    padding-bottom: 40px;
+ 
+}
+.hobbie-sec-containers{
+    padding: 0px 90px;
 }
 .hobbie-sec-child-container{
     padding:10px; 
@@ -394,7 +467,8 @@ h5{
 }
 
 .about-title-child{
-    font-size: 14px;
+    font-size: 15px;
+    padding: 10px;
     color: #2f487c;
 }
 .icon{
@@ -444,13 +518,22 @@ h5{
 .explore-text{
 font-size: 30px;
 font-weight: 600;
+line-height: 1.3;
 text-align: left;
 }
 
 .choose-container{
-    padding: 40px 0px 40px 0px;
+    padding:0px 90px;
 }
-
+.see-all-hobbies{
+    padding: 100px;
+    text-align: center;
+}
+.see-all-hobbie-text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #132243;
+}
 
 
 @media screen and (min-width: 320px) and (max-width: 576px){
@@ -472,6 +555,7 @@ text-align: center;
 }
 .most-popular-text{
     text-align: center;
+    font-size: 14px;
 }
 .hobbie-div2-img-container{
 text-align: center;
@@ -485,8 +569,8 @@ text-align: center;
     justify-content: center;
     align-items: center;
 }
-.footer-container{
-        margin: 50px 0px 20px 0px;
+.footer-container {
+    margin: 10px 50px 10px 0px;
 }
 .navigation{
     padding: 15px;
@@ -578,19 +662,11 @@ display: none;
 .hobbie-div2{
     width:100%;
 }
-.hobbie-sec-container{
-    flex-direction: column;
-    display: flex;
-}
-.hobbie-sec-container2{
-    flex-direction: column;
-    display: flex;
-}
+
 .hobbie-sec1-div{
     width:100%;
     align-items: center;
     justify-content: center;
-    display: flex;
 }
 .choose-container{
     display:flex; 
@@ -624,11 +700,66 @@ display: none;
 .choose-sec2-head{
     text-align: center;
 }
+.explore-now-container {
+    margin: 30px 0px 30px 0px;
+}
+.hobbie-container {
+    padding: 30px 0px 30px 0px;
+}
+.most-popular-text{
+    padding: 0px 10px;
+}
+.footer-container {
+    margin: 10px 0px 10px 0px;
+}
+.slider-container{
+    padding: 0px 10px;
+}
+.hobbie-sec-containers {
+    padding: 0px 10px;
+}
+.see-all-hobbies {
+    padding: 50px;
+}
+.choose-main-div {
+    padding: 10px 0px;
+}
+.slider-size{
+padding: 0px;
+}
+.about-section-container {
+    padding: 50px 30px 10px 30px;
+    
+}
+.owl-nav {
+   display: none;
+}
+
+.img-border {
+    padding-right: 0px;
+}
+
 
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px){
-  
+    .btn-container{
+        display: none;
+      }
+     
+      .slider-size{
+        padding:10px 30px;
+    }
+    .about-section-div1{
+        width: 40%;
+    }
+    .about-section-div2{
+        width: 60%;
+        padding: 20px;
+    }
+    .img-border {
+    padding-right: 10px;
+}
     .logo{
         padding-left: 10px
     }
@@ -651,7 +782,7 @@ display: none;
         height:540px;
     }
     .nav-item-style{
-        padding: 0px;
+        padding: 2px;
     }
     .credential-option {
         margin-right: 25px;
@@ -668,13 +799,15 @@ display: none;
     }
     .head-text {
         font-size: 15px;
+       
     }
     .img-front{
         height: 280px;
     }
-    .head-text-container{
-        padding-right: 40%;
+    .about-img{
+        height: 250px; 
     }
+    
     .section-intro-container {
         padding: 0px 100px 30px 100px;
     }
@@ -731,13 +864,37 @@ display: none;
     .choose-sec2{
         width: 50%;
     }
+    .about-section-div2-text {
+        font-size: 16px;
+    }
+    .about-section-div2 {
+         padding-right: 10px; 
+    }
+    .hobbie-sec-child-container {
+        padding: 0px; 
+    }
+    .hobbie-sec-child-container-text {
+        font-size: 14px;
+    }
+    .choose-container-head {
+        font-size: 30px;
+    }
+    .choose-container-head2 {
+        font-size: 16px;
+    }
+    .explore-text {
+        font-size: 28px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px){
     .logo{
         padding-left: 30px
     }
-    
+    .btn-container{
+        display: none;
+      }
     .blue-overlay{
         width:42%; 
     }
@@ -773,6 +930,7 @@ display: none;
     .explore-header-text {
         padding-right: 10%;
     }
+   
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px){
@@ -783,6 +941,9 @@ display: none;
         margin-right:   30px;
         margin-left:30px
     }
+    .btn-container{
+        display: none;
+      }
     .underline{
         width: 30px;
     }
@@ -799,7 +960,7 @@ display: none;
         font-size: 13px;
     }
     .text{
-        font-size:25px; 
+        font-size:17px; 
         padding: 20px 0px 0px 10px;
     }
     .img-over{
@@ -850,18 +1011,31 @@ display: none;
     .explore-header-text {
         padding-right: 10%;
     }
+    .see-all-hobbies{
+        padding: 70px;
+    }
+    .about-section-container {
+        padding: 20px 100px 0px 100px;
+    }
+    .about-section-div2 {
+        padding-right: 30px;
+    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px){
     .explore-header-text {
         padding-right: 30%;
     }
+    .btn-container{
+        display: none;
+      }
     .logo{
         padding-left: 70px
     }
     .text{
-        font-size:30px; 
-        padding: 20px 0px 0px 10px;
+        line-height: 1.5;
+        padding: 20px;
+        font-size: 17px;
     }
     .hobbie-sec-container2{
         flex-direction: row;
@@ -895,6 +1069,9 @@ display: none;
         }
         .choose-sec2{
             width: 50%;
+        }
+        .footer-container{
+            margin: 30px 50px 15px 0px;
         }
 }
 
